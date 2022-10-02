@@ -12,7 +12,8 @@ class Calculator{
     }
     static divide(firstNumber, secondNumber) {
         if(secondNumber == 0){  
-            alert('На ноль делить нельзя!');      
+            alert('На ноль делить нельзя!');
+            result.value = '';   
         } else {
             return firstNumber / secondNumber;
         }
